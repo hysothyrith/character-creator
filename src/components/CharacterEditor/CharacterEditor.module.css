@@ -1,9 +1,11 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  isolation: isolate;
 }
 
 .maxWidthWrapper {
+  max-width: 65%;
 }
 
 .header {
@@ -21,10 +23,15 @@
 .description {
   font-size: 1.25rem;
   margin: 0;
+  max-width: 65%;
 }
 
 .characterWrapper {
+  position: fixed;
+  right: 254px;
+  top: 144px;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
